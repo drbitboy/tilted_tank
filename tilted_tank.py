@@ -5,7 +5,16 @@ vertical and the flat bottom is at angle phi from horizontal.
 
 Usage:
 
+
+  - Print analytical and numerical models for volume with bottom covered
+
   python tilted_tank.py [--R=<radius>] [--phi=<tilt,deg>] [--n=<row count>]
+
+
+  - Plot comparison of analytical and numerical models
+
+  >>> import tilted_tank as t
+  >>>  t.calc_vs_est()
 
 """
 import os
